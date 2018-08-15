@@ -49,4 +49,16 @@ footer{
     #bitcoin-price{
         font-size: 5em;
     }
+    #radio-btn-row{
+        margin: 10px auto;
+    }
+    button{
+        margin-top: 10px;
+    }
+    footer{
+        margin-top: 10px;
+    }
+    #info-text{
+        margin-top: 10px;
+    }
  }
