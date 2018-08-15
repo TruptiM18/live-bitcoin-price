@@ -48,6 +48,7 @@ footer{
 @media only screen and (max-width: 576px) { 
     #bitcoin-price{
         font-size: 5em;
+        margin-top: 20px;
     }
     #radio-btn-row{
         margin: 10px auto;
