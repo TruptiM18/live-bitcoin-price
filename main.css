@@ -1,0 +1,52 @@
+
+html{
+	height: 100%;
+}
+body{
+    background-size: cover;
+    font-family: Lato;
+    background: #FFF59D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFF59D, #FB8C00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FFF59D, #FB8C00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h1{
+    font-weight: 400;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 20px;
+}
+#bitcoin-price{
+    border-radius: 4px;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 7em;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #E64A19;
+}
+#currency-choice{
+    border-radius: 4px;
+    font-weight: bolder;
+    color: brown;
+    font-size: 1.2em;
+}
+#radio-btn-row{
+    margin: 20px auto;
+}
+button{
+    margin-top: 20px;
+}
+footer{
+    margin-top: 20px;
+}
+#info-text{
+    margin-top: 20px;
+    color: black;
+    font-weight: 100;
+    font-size: 0.8em;
+}
+@media only screen and (max-width: 576px) { 
+    #bitcoin-price{
+        font-size: 5em;
+    }
+ }
